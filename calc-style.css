@@ -1,0 +1,70 @@
+.calculator {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.calculator input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+}
+.calculator button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+}
+.calculator button.clear {
+    width: 100%;
+}
+.calculator button.equal {
+    height: 100px;
+}
+.calculator button.operator {
+    background-color: #f0f0f0;
+}
+.calculator button.operator:hover {
+    background-color: #e0e0e0;
+}
+.calculator button.operator:active {
+    background-color: #d0d0d0;
+}
+.calculator button.number {
+    background-color: #f8f8f8;
+}
+.calculator button.number:hover {
+    background-color: #e8e8e8;
+}
+.calculator button.number:active {
+    background-color: #d8d8d8;
+}
+.calculator button.clear {
+    background-color: #f8f8f8;
+}
+.calculator button.clear:hover {
+    background-color: #e8e8e8;
+}
+.calculator button.clear:active {
+    background-color: #d8d8d8;
+}
+.calculator button.equal {
+    background-color: #f8f8f8;
+}
+.calculator button.equal:hover {
+    background-color: #e8e8e8;
+}
+.calculator button.equal:active {
+    background-color: #d8d8d8;
+}
+.calculator .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
